@@ -1,0 +1,23 @@
+# ---------- Python / Django ----------
+__pycache__/
+*.py[cod]
+.venv/
+db/*.sqlite3
+staticfiles/
+media/
+logs/
+.pip-cache/
+
+# ---------- Node / UniApp ----------
+node_modules/
+dist/
+.npm-cache/
+npm-install.log
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+
+# ---------- 工具二进制（nginx/redis/gh，按需手动下载，不入库） ----------
+tools/
+*.zip

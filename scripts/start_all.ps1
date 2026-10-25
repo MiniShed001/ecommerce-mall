@@ -1,0 +1,12 @@
+﻿# 一键启动：Redis -> 后端 -> Nginx
+Write-Host '== 全栈电商 一键启动 =='
+& 'D:\ecommerce\scripts\start_redis.ps1'
+& 'D:\ecommerce\scripts\start_backend.ps1'
+& 'D:\ecommerce\scripts\start_nginx.ps1'
+Write-Host ''
+Write-Host '访问地址：'
+Write-Host '  商城 H5       http://localhost:8080'
+Write-Host '  Django 后台   http://localhost:8080/admin/   (admin/admin123456)'
+Write-Host '  API 直连      http://localhost:8080/api/home/'
+Write-Host '  前端开发服    http://localhost:5173  (npm run dev:h5)'
+Write-Host '停止服务：scripts\stop_all.ps1'

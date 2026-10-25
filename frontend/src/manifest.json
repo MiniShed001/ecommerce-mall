@@ -1,0 +1,22 @@
+{
+  "name": "全栈电商",
+  "appid": "",
+  "description": "UniApp + Nginx + Django + Redis 电商项目",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "vueVersion": "3",
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3
+  },
+  "h5": {
+    "title": "全栈电商",
+    "router": {
+      "mode": "hash"
+    },
+    "devServer": {
+      "port": 5173
+    }
+  }
+}
